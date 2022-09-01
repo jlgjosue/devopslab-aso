@@ -17,4 +17,4 @@ class Test(unittest.TestCase):
                                                                                                                                                                                                          
     def test_conteudo(self):                                                                                                                                                                             
         # verifica o retorno do conteudo da pagina                                                                                                                                                       
-        self.assertEqual(self.result.data.decode('utf-8'), "Não pense que é capaz. Saiba que é. - Matrix")  
+        self.assertEqual(self.result.data.decode('utf-8'), "No meu container roda!")  
